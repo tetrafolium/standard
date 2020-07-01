@@ -36,8 +36,8 @@ inspecode:
 
   npm-audit:
     #auto-fix: true   # NOTE: temporary tern-off ... please tern-on after fix codelift#1782
-    options:
-      --package-lock-only:
+    #options:
+    #  --package-lock-only:  # this option cannot resolve codelift#1782
     thresholds: { num-issues: 999 }
 
   npm-test:
