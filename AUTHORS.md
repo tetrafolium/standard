@@ -119,7 +119,7 @@
 - Tony Finn ([tony@tonyfinn.com](mailto:tony@tonyfinn.com))
 - tumobi ([tumobi@163.com](mailto:tumobi@163.com))
 - Maarten Ackermans ([maarten.ackermans@gmail.com](mailto:maarten.ackermans@gmail.com))
-- ★★ (งツ)ว ★★ ([theaichholzer@gmail.com](mailto:theaichholzer@gmail.com))
+- ★★ (ง ツ)ว ★★ ([theaichholzer@gmail.com](mailto:theaichholzer@gmail.com))
 - Fahad Hossain ([fa7ad@users.noreply.github.com](mailto:fa7ad@users.noreply.github.com))
 - kaijun ([cadenho@hotmail.com](mailto:cadenho@hotmail.com))
 - Andre Sattler ([andresattler.webdev@gmail.com](mailto:andresattler.webdev@gmail.com))
