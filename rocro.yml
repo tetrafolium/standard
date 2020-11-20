@@ -43,7 +43,7 @@ inspecode:
 
   phpcs:
     auto-fix: true
-    thresholds: { num-issues: 281 }
+    thresholds: { num-issues: 290 }
 
   pmd:
     thresholds: { num-issues: 3 }
