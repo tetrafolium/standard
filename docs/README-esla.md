@@ -34,9 +34,9 @@ Este módulo te ahorra tiempo a ti (y otros) tres maneras:
 - **Sin configuración.** La manera más fácil de usar estilos consistentes
   en tu proyecto.
 - **Automáticamente formatea el código.** Ejecuta `standard --fix` y dile adiós a las
-  inconsistencias en tu código.
-- **De manera temprana captura problemas de estilos y errores de programador.** Te ahorras el tiempo
-  de hacer revisiones de código eliminando inconsistencias entre el dueño del
+  inconsistencies en tu código.
+- **De manera temprana captura problems de estilos y errores de programador.** Te ahorras el tiempo
+  de hacer revisions de código eliminando inconsistencies entre el dueño del
   repositorio y los contribuidores.
 
 Instalar con:
@@ -87,7 +87,7 @@ que usan `standard`!
 
   - [¿Por qué debería usar JavaScript Standard Style?](#por-qué-deberia-usar-javascript-standard-style)
   - [¿Quién usa JavaScript Standard Style?](#quién-usa-javascript-standard-style)
-  - [¿Hay plugins para editores de textos?](#hay-plugins-para-editores-de-textos)
+  - [¿Hay plugins para editors de textos?](#hay-plugins-para-editors-de-textos)
   - [¿Hay alguna medalla para al readme?](#hay-alguna-medalla-para-al-readme)
   - [No estoy de acuerdo con la regla X, ¿la puedo cambiar?](#no-estoy-de-acuerdo-con-la-regla-x-la-puedo-cambiar)
   - [¡Pero esto no un estandar web real!](#pero-esto-no-un-estandar-web-real)
@@ -109,7 +109,7 @@ que usan `standard`!
 
 ## Instalación
 
-La manera más fácil de usar JavaScript Standard Style es instalarlo globalmente como un programa de línea de comandos de Node. Ejecuta el siguiente comando en la terminal:
+La manera más fácil de usar JavaScript Standard Style es instalarlo globalmente como un programa de línea de commandos de Node. Ejecuta el siguiente commando en la terminal:
 
 ```bash
 $ npm install standard --global
@@ -121,7 +121,7 @@ O, puedes instalar `standard` localmente, para usar en un solo proyecto:
 $ npm install standard --save-dev
 ```
 
-_Nota: para ejecutar los comandos anteriores [Node.js](http://nodejs.org) y [npm](https://npmjs.com) deben estar instalados._
+_Nota: para ejecutar los commandos anteriores [Node.js](http://nodejs.org) y [npm](https://npmjs.com) deben estar instalados._
 
 ## Uso
 
@@ -133,7 +133,7 @@ Error: Use JavaScript Standard Style
   lib/torrent.js:950:11: Expected '===' and instead saw '=='.
 ```
 
-Opcionalmente puedes pasar un directorio (o directorios) usando el patrón glob.
+Opcionalmente puedes pasar un directorio (o directors) usando el patrón glob.
 Asegúrese de usar comillas en las rutas que contengan el patrón glob
 para que sean expandidos por `standard` y no por el shell:
 
@@ -141,7 +141,7 @@ para que sean expandidos por `standard` y no por el shell:
 $ standard "src/util/**/*.js" "test/**/*.js"
 ```
 
-**Nota:** Por defecto `standard` buscará todos los archivos que concuerden con los patrones:
+**Nota:** Por defecto `standard` buscará todos los archivos que concuerden con los patrons:
 `**/*.js`, `**/*.jsx`.
 
 ## Lo que podrías hacer si eres inteligente
@@ -182,9 +182,9 @@ Este módulo te ahorra tiempo a ti (y otros) en tres maneras:
 - **Sin configuración.** La manera más fácil de usar estilos consistentes
   en tu proyecto.
 - **Automáticamente formatea el código.** Ejecuta `standard --fix` y dile adiós a las
-  inconsistencias en tu código.
-- **Captura problemas de estilos y errores del programador muy pronto.** Te ahorras el tiempo
-  de hacer revisiones de código eliminando inconsistencias entre el dueño del
+  inconsistencies en tu código.
+- **Captura problems de estilos y errores del programador muy pronto.** Te ahorras el tiempo
+  de hacer revisions de código eliminando inconsistencies entre el dueño del
   repositorio y los contribuidores.
 
 Adoptar estilos `standard` significa clasificar la importancia de la claridad del código y las convenciones de la comunidad mucho más que estilo personal. Esto quizás no tenga sentido para el 100% de proyectos y culturas de desarrollo, pero los proyectos de código abierto pueden llegar a ser hostiles para los novatos. Estableciendo expectativas de contribución limpia y automatizada puede hacer el proyecto más saludable.
@@ -251,7 +251,7 @@ Adicionalmente a compañías, muchos miembros de la comunidad usan `standard` en
 También `standard` es el linter con más estrellas en GitHub
 [Clean Code Linter](https://github.com/showcases/clean-code-linters).
 
-## ¿Hay plugins para editores de textos?
+## ¿Hay plugins para editors de textos?
 
 Primero, instale `standard`. Luego, instale el plugin apropiado para su editor:
 
@@ -324,7 +324,7 @@ Busque el registro de extension para **["Standard Code Style"][brackets-1]**.
 
 WebStorm [recientemente anuncio soporte nativo](https://blog.jetbrains.com/webstorm/2017/01/webstorm-2017-1-eap-171-2272/) para `standard` directamente en el IDE.
 
-Si aun prefieres configurar `standard` manualmente [sigue esta guía](webstorm-2). Esto se aplica a todos los productos de JetBrains, incluyendo PhpStorm, IntelliJ, RubyMine y etc.
+Si aun prefieres configurar `standard` manualmente [sigue esta guía](webstorm-2). Esto se aplica a todos los products de JetBrains, incluyendo PhpStorm, IntelliJ, RubyMine y etc.
 
 [webstorm-1]: https://www.jetbrains.com/webstorm/
 [webstorm-2]: webstorm.md
@@ -348,12 +348,12 @@ hacerle saber a las personas que en tu código estas usando estilos standard.
 
 ## No estoy de acuerdo con la regla X, ¿la puedo cambiar?
 
-No. El objetivo de `standard` es evitar [bikeshedding][bikeshedding] en el estilo. Existen un montón de debates online acerca de tabs vs espacios, etc. que nunca serán resueltos. Estos debates solo te distraen de hacer tu trabajo. Al final del día tienes simplemente que “usar alguno”, y esa es toda la filosofía de `standard` -- es un montón de sensibles opiniones de “usar alguno”. Con la esperanza que los usuarios vean el valor en esto más que defender sus propias opiniones.
+No. El objetivo de `standard` es evitar [bikeshedding][bikeshedding] en el estilo. Existen un montón de debates online acerca de tabs vs espacios, etc. que nunca serán resueltos. Estos debates solo te distraen de hacer tu trabajo. Al final del día tienes simplemente que “usar alguno”, y esa es toda la filosofía de `standard` -- es un montón de sensibles opinions de “usar alguno”. Con la esperanza que los usuarios vean el valor en esto más que defender sus propias opinions.
 
 Si realmente quieres configurar cientos de reglas individualmente, puedes usar `eslint` directamente con [eslint-config-standard](https://github.com/standard/eslint-config-standard) aplicando
 cambios encima de este.
 
-Tip: ¡Simplemente usa `standard` y ya está. Existen problemas reales
+Tip: ¡Simplemente usa `standard` y ya está. Existen problems reales
 en los cuales debes usar tu tiempo! :P
 
 [bikeshedding]: https://www.freebsd.org/doc/en/books/faq/misc.html#bikeshed-painting
@@ -369,21 +369,21 @@ La palabra “estándar” tiene más significados que solo “estándar web” 
 
 ## ¿Hay algún formateador automático?
 
-¡Sí! Puedes usar `standard --fix` para arreglar la mayoría de los problemas automáticamente.
+¡Sí! Puedes usar `standard --fix` para arreglar la mayoría de los problems automáticamente.
 
 `standard --fix` está integrado en `standard` (desde v8.0.0) para máxima conveniencia.
-La mayoría de los problemas se arreglan, pero algunos errores (olvidar gestionar errores en callbacks) deben ser arreglados manualmente.
+La mayoría de los problems se arreglan, pero algunos errores (olvidar gestionar errores en callbacks) deben ser arreglados manualmente.
 
 Para no perder el tiempo, `standard` emite un mensaje ("Run `standard --fix` to
 automatically fix some problems.") cuando detecta errores que pueden ser arreglados automáticamente.
 
 ## ¿Cómo hago para ignorar archivos?
 
-Ciertas rutas (`node_modules/`, `coverage/`, `vendor/`, `*.min.js`, `bundle.js`, y archivos/directorios que empiezan con `.` cómo `.git`) son ignorados automáticamente.
+Ciertas rutas (`node_modules/`, `coverage/`, `vendor/`, `*.min.js`, `bundle.js`, y archivos/directors que empiezan con `.` cómo `.git`) son ignorados automáticamente.
 
 Las rutas del `.gitignore` del proyecto raíz son ignorados automáticamente.
 
-A veces necesitas ignorar directorios o archivos específicos. Para hacerlo, agrega la propiedad `standard.ignore` al `package.json`:
+A veces necesitas ignorar directors o archivos específicos. Para hacerlo, agrega la propiedad `standard.ignore` al `package.json`:
 
 ```json
 "standard": {
@@ -685,7 +685,7 @@ El `callback` será llamado con un objeto de `Error` y `results`: (igual al de a
 - **[standard-www](https://github.com/standard/standard-www)** - código de https://standardjs.com
 - **[semistandard](https://github.com/standard/semistandard)** - standard, con punto y coma (sí es necesario)
 
-También hay un montón **[plugins editores de textos](#plugins-editores-de-textos)**, una lista de
+También hay un montón **[plugins editors de textos](#plugins-editors-de-textos)**, una lista de
 **[paquetes npm que usan `standard`](https://github.com/standard/standard-packages)**,
 y una impresionante lista de
 **[paquetes en el ecosistema `standard`](https://github.com/standard/awesome-standard)**.

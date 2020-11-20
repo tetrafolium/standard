@@ -34,7 +34,7 @@
 
 Ce module vous laisse gagner du temps de trois façons:
 
-- **Pas de configuration.** La façon la plus facile d'assurer un style consistant dans vos projets.
+- **Pas de configuration.** La façon la plus facile d'assurer un style consistent dans vos projets.
 - **Formatte le code automatiquement.** Exécutez `standard --fix` et dites au revoir aux irrégularités dans votre code.
 - **Identifiez en avance les erreurs et problèmes de styles.**
   Gagnez un temps précieux de revision du code en eliminant les échanges entre le contributeur et le réviseur.
@@ -47,7 +47,7 @@ Installez avec:
 npm install standard --save-dev
 ```
 
-### Open Source Supporteurs
+### Open Source Supporters
 
 <a href="https://nsrc.io/oss-feross" target='_blank'><img src='https://feross.org/images/supporters/nodesource.png' width=125></a>
 
@@ -65,7 +65,7 @@ npm install standard --save-dev
 - Déclarez les globales de navigateur avec le commentaire `/* global */` en haut du fichier
   - Prévient l'utilisation accidentelle de globales comme `open`, `length`,
     `event`, et `name`.
-  - Exemple: `/* global alert, prompt */`
+  - Example: `/* global alert, prompt */`
   - Les exceptions sont: `window`, `document`, et `navigator`
 - **Et [plus][5]** – _donnes `standard` une chance!_
 
@@ -76,14 +76,14 @@ npm install standard --save-dev
 [5]: RULES-fr.md#javascript-standard-style
 
 Pour avoir une meilleure idée, jetez un coup d'oeil à
-[un exemple](https://github.com/expressjs/body-parser/blob/master/index.js) écrit
+[un example](https://github.com/expressjs/body-parser/blob/master/index.js) écrit
 en JavaScript Standard Style. Ou, jetez un coup d'oeil à un des
 [milliers de projets](https://raw.githubusercontent.com/standard/standard-packages/master/all.json)
 qui utilisent `standard`!
 
 ## Table des Matières
 
-- Démarrage rapide
+- Démarriage rapide
   - [Installation](#installation)
   - [Utilisation](#utilisation)
   - [Ce que vous pouvez faire si vous êtes malins](#ce-que-vous-pouvez-faire-si-vous-êtes-malins)
@@ -106,7 +106,7 @@ qui utilisent `standard`!
   - [Il y a-t-il un Git `pre-commit`?](#il-y-a-t-il-un-git-pre-commit)
   - [Comment puis-je produire un resultat coloré et _joli_?](#comment-puis-je-produire-un-resultat-coloré-et-joli)
   - [Il y a-t-il une API Node.js?](#il-y-a-t-il-une-api-nodejs)
-  - [Comment puis-je contribuer à `standard`?](#comment-puis-je-contribuer-a-standard)
+  - [Comment puis-je contribute à `standard`?](#comment-puis-je-contribute-a-standard)
 - [Licence](#licence)
 
 ## Installation
@@ -123,7 +123,7 @@ Ou, vous pouvez installer `standard` localement, pour l'utiliser dans un seul pr
 $ npm install standard --save-dev
 ```
 
-_Note: Pour executer les commandes précédentes, [Node.js](http://nodejs.org) et [npm](https://npmjs.com) doivent être installés._
+_Note: Pour executer les commands précédentes, [Node.js](http://nodejs.org) et [npm](https://npmjs.com) doivent être installés._
 
 ## Utilisation
 
@@ -176,12 +176,12 @@ La beauté du JavaScript Standard Style est dans sa simplicité. Personne ne veu
 
 Ce module vous laisse gagner du temps de trois façons:
 
-- **Pas de configuration.** La façon la plus facile d'assurer un style consistant dans vos projets.
+- **Pas de configuration.** La façon la plus facile d'assurer un style consistent dans vos projets.
 - **Formatte le code automatiquement.** Exécutez `standard --fix` et dites au revoir aux irregularités dans votre code.
 - **Identifiez en avance les erreurs et problèmes de styles.**
   Gagnez un temps precieux de revision du code en éliminant les échanges entre le contributeur et le réviseur.
 
-Adopter le style `standard` c'est mettre l'importance de la clarité du code et des conventions de la communauté avant le style personel. Ça n'a peut-être pas de sens pour 100% des projets et cultures de développement, cependant, open-source peut être un environement hostile pour les jeunes développeurs. Mettre en place des attentes claires et automatisées pour les contributeurs permet un projet plus sain.
+Adopter le style `standard` c'est mettre l'importance de la clarité du code et des conventions de la communauté avant le style personnel. Ça n'a peut-être pas de sens pour 100% des projets et cultures de développement, cependant, open-source peut être un environement hostile pour les jeunes développeurs. Mettre en place des attentes claires et automatisées pour les contributes permet un projet plus sain.
 
 Pour plus d'information, jetez un oeil a la présentation ["Write Perfect Code with Standard and
 ESLint"](https://www.youtube.com/watch?v=kuHfMw8j4xk). Dans cette présentation, vous allez apprendre sur le linting, quand utiliser `standard` contre `eslint`, et comment `prettier` compare à `standard`.
@@ -299,7 +299,7 @@ let g:ale_linters = {
 \}
 ```
 
-Cela definit standard comme votre seul linteur pour les fichiers javascript et donc previent les conflits avec eslint.
+Cela definite standard comme votre seul linteur pour les fichiers javascript et donc previent les conflits avec eslint.
 
 Pour le formatage automatique quand vous sauvegardez, ajoutez ces lines à `.vimrc`:
 
@@ -370,10 +370,10 @@ Astuce pro: Utilisez juste `standard` et passez à autre chose. Vous pourriez pa
 Bien sur que non! Le style présenté ici n'est pas affilié à aucun groupe de standards web, ce pourquoi ce repo est appelé `standard/standard` et pas
 `ECMA/standard`.
 
-Le mot "standard" a plus de sens que juste "web standard" :-) Par exemple:
+Le mot "standard" a plus de sens que juste "web standard" :-) Par example:
 
 - Ce module aide à garder notre code à un certain _standard de qualité_.
-- Ce module assure que les nouveaux contributeurs suivent les _standards de style_.
+- Ce module assure que les nouveaux contributes suivent les _standards de style_.
 
 ## Y a-t-il un formateur automatique?
 
@@ -471,7 +471,7 @@ _Note: `global` et `globals` sont équivalents._
 
 `standard` supporte les dernières fonctionalités d'ECMAScript, ES8 (ES2017), comprenant les propositions qui sont à l'"étape 4" du processus de proposition.
 
-Pour supporter les fonctionalités expérimentales, `standard` supporte la spécification d'un parseur JavaScript personalisé. Avant d'utiliser un parseur personalisé, il faut considérer si la compléxité ajoutée vaut le coup.
+Pour supporter les fonctionalités expérimentales, `standard` supporte la spécification d'un parseur JavaScript personasé. Avant d'utiliser un parseur personasé, il faut considérer si la compléxité ajoutée vaut le coup.
 
 Pour utiliser un autre parseur, installez-le d'abord avec npm:
 
@@ -738,11 +738,11 @@ var opts = {
 
 Le `callback` sera appelé avec un objet `Error` et `results` (comme au-dessus).
 
-## Comment puis-je contribuer a `standard`?
+## Comment puis-je contribute a `standard`?
 
 Les contributions sont bienvenues! Jetez un coup d'oeil aux [issues](https://github.com/standard/standard/issues) et aux [PRs](https://github.com/standard/standard/pulls), et faites la votre si vous voulez quelque chose que vous ne trouvez pas la.
 
-Envie de discuter? Joignez les contributeurs sur IRC dans la chaine `#standard` sur freenode.
+Envie de discuter? Joignez les contributes sur IRC dans la chaine `#standard` sur freenode.
 
 Voici quelques modules importants dans l'ecosystème `standard`:
 

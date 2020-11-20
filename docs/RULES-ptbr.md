@@ -262,7 +262,7 @@ A melhor forma de aprender sobre o `standard` é instalar e usar no seu código.
   `hello`.indexOf("o");
   ```
 
-  Nota: Se você frequentemente escreve código assim, você pode estar querendo ser o inteligentão. Cuidado.
+  Nota: Se você frequentemente escreve código assim, você pode estar querendo ser o intelligentão. Cuidado.
 
   Atalhos inteligentes são desencorajados, em favor de expressões mais limpas e legíveis, sempre que possível.
 
@@ -288,11 +288,11 @@ A melhor forma de aprender sobre o `standard` é instalar e usar no seu código.
 
 - [Are Semicolons Necessary in JavaScript? - YouTube][3]
 
-Todos os minificadores de código populares usam minificação baseada em AST, logo, podem lidar com JavaScript sem ponto-e-vírgula sem problemas (já que ponto-e-vírgula não é obrigatório no JavaScript).
+Todos os minificadores de código populares usam minificação baseada em AST, logo, podem lidar com JavaScript sem ponto-e-vírgula sem problems (já que ponto-e-vírgula não é obrigatório no JavaScript).
 
 ##### Um pedaço de _["An Open Letter to JavaScript Leaders Regarding Semicolons"][1]_, traduzido:
 
-[Depender de inserção automática de ponto-e-vírgula] é algo bem seguro, e é perfeitamente válido, de forma que qualquer navegador entende. Compilador Closure, yuicompressos, packer e jsmin... todos conseguem minificar sem problemas. Não há impacto de performance.
+[Depender de inserção automática de ponto-e-vírgula] é algo bem seguro, e é perfeitamente válido, de forma que qualquer navegador entende. Compilador Closure, yuicompressos, packer e jsmin... todos conseguem minificar sem problems. Não há impacto de performance.
 
 Lamento que ao invés de educar, os líderes da comunidade dessa linguagem mentem pra você, te deixam com medo. Isso é vergonhoso. Eu recomendo aprender como declarações no JS são terminadas (e em que caso elas não são terminadas), para que você possa escrever os códigos que acha bonito.
 
@@ -303,7 +303,7 @@ De forma geral, `\n` termina uma declaração a menos que:
 3. Ela seja um `for()`, `while()`, `while()`, `do`, `if()`, ou `else`, e não possui `{`
 4. A próxima linha começa com `[`, `(`, `+`, `*`, `/`, `-`, `,`, `.`, ou algum outro operador binário que só pode ser encontrado entre 2 tokens em uma única expressão.
 
-A primeira linha é bem óbvia. Qualquer JSLint não vê problemas em `\n` em json e construtores "aparêntetizados", e com declarações `var` que se extendem por múltiplas linhas, terminado em `,`;
+A primeira linha é bem óbvia. Qualquer JSLint não vê problems em `\n` em json e construtores "aparêntetizados", e com declarações `var` que se extendem por múltiplas linhas, terminado em `,`;
 A segunda é muito esquisita. Nunca vi um caso (fora de ambientes específicos pra esse caso) onde você iria querer escrever `i\n++\nj`, mas pra todos os fins, isso é um `i; ++j`, e não `i++; j`.
 
 A terceira é bem difundida, embora geralmente deixada pra lá. `if (x)\ny()` é equivalente a `if (x) { y() }`. O construtor não termina até que ache um bloco, ou uma declaração.

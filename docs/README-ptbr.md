@@ -75,7 +75,7 @@ Para ter uma idéia melhor, dê uma olhada
 - [Uso](#uso)
   - [O que você pode fazer se for espertinho](#o-que-voc%C3%AA-pode-fazer-se-for-espertinho)
   - [Insígnia](#ins%C3%ADgnia)
-  - [Plugins de Editores de Texto](#plugins-de-editores-de-texto)
+  - [Plugins de Editors de Texto](#plugins-de-editors-de-texto)
 - [FAQ](#faq)
   - [Por que eu deveria usar o JavaScript Standard Style?](#por-que-eu-deveria-usar-o-javascript-standard-style)
   - [Discordo da regra X, você pode mudá-la?](#discordo-da-regra-x-voc%C3%AA-pode-mud%C3%A1-la)
@@ -99,13 +99,13 @@ Para ter uma idéia melhor, dê uma olhada
 
 ## Instalação
 
-A forma mais fácil de usar o JavaScript Standard Style para checar seu código é instalá-lo globalmente como se fosse um programa de linha de comando do Node. Para isso, simplesmente execute o seguinte comando no seu terminal (a flag `-g` instala o `standard` globalmente no seu sistema, omita-a se quiser instalar no seu diretório de trabalho atual.)
+A forma mais fácil de usar o JavaScript Standard Style para checar seu código é instalá-lo globalmente como se fosse um programa de linha de commando do Node. Para isso, simplesmente execute o seguinte commando no seu terminal (a flag `-g` instala o `standard` globalmente no seu sistema, omita-a se quiser instalar no seu diretório de trabalho atual.)
 
 ```bash
 npm install standard --global
 ```
 
-Ou você pode rodar este comando para instalar `standard` localmente, para usar no seu módulo:
+Ou você pode rodar este commando para instalar `standard` localmente, para usar no seu módulo:
 
 ```bash
 npm install standard --save-dev
@@ -123,7 +123,7 @@ Error: Use JavaScript Standard Style
   lib/torrent.js:950:11: Expected '===' and instead saw '=='.
 ```
 
-Você pode passar opcionalmente um diretório (ou diretórios) usando o padrões glob. Assegure-se de colocar aspas nos caminhos contendo padrões glob para que eles sejam expandidos pelo `standard` ao invés da sua shell.
+Você pode passar opcionalmente um diretório (ou diretórios) usando o padrões glob. Assegure-se de colocar aspas nos caminhos contendo padrões glob para que eels sejam expandidos pelo `standard` ao invés da sua shell.
 
 ```bash
 $ standard "src/util/**/*.js" "test/**/*.js"
@@ -174,7 +174,7 @@ Está usando em um dos seus projetos? Inclua uma dessas insígnias no seu readme
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com/)
 ```
 
-### Plugins de Editores de Texto
+### Plugins de Editors de Texto
 
 Primeiro, instale `standard`. Então, instale o plugin apropriado para o seu editor.
 
@@ -283,12 +283,12 @@ A palavra "standard" tem muito mais significado do que só "web standard" :-) Po
 
 ### Existe um formatador automático?
 
-Sim! Você pode usar `standard --fix` para consertar a maioria dos problemas automaticamente.
+Sim! Você pode usar `standard --fix` para consertar a maioria dos problems automaticamente.
 
-`standard --fix` vem junto do `standard` (since v8.0.0) para conveniência máxima. Há muitos problemas corrigíveis, mas alguns erros, tipo não tratar erros nos callbacks do node, devem ser corrigidos manualmente.
+`standard --fix` vem junto do `standard` (since v8.0.0) para conveniência máxima. Há muitos problems corrigíveis, mas alguns erros, tipo não tratar erros nos callbacks do node, devem ser corrigidos manualmente.
 
 Para economizar seu tempo, `standard` solta uma mensagem ("Run `standard --fix` to automatically fix some
-problems.") quando detecta problemas que podem ser corrigidos manualmente.
+problems.") quando detecta problems que podem ser corrigidos manualmente.
 
 Alternativamente, se seu código é feito apenas de ES5, você pode tentar usar
 [`standard-format`][standard-format] (um pacote separado), mas provavelmente não vai ser mantido pois `standard --fix` funciona muito bem, e isso faz com que não precisemos manter duas ferramentas com regras de configuração separadas.
@@ -405,12 +405,12 @@ Se você está usando `standard` globalmente (instalou com `-g`), você também 
 
 ### Você pode tornar regra X configurável?
 
-Não. O objetivo do `standard` é economizar seu tempo escolhendo regras razoáveis para que você gaste seu tempo resolvendo problemas de verdade. Se você realmente quer configurar centenas de regras ESLint individualmente, você sempre pode usar `eslint` diretamente.
+Não. O objetivo do `standard` é economizar seu tempo escolhendo regras razoáveis para que você gaste seu tempo resolved problems de verdade. Se você realmente quer configurar centenas de regras ESLint individualmente, você sempre pode usar `eslint` diretamente.
 
 Se você apenas quer trocar algumas regras, considere usar
 [essa configuração compartilhável](https://github.com/standard/eslint-config-standard) e jogue suas mudanças em cima.
 
-Dica: Use `standard` e pronto. Há problemas reais que você poderia usar seu tempo resolvendo! :P
+Dica: Use `standard` e pronto. Há problems reais que você poderia usar seu tempo resolved! :P
 
 ### E os Web Workers?
 
@@ -492,7 +492,7 @@ Aplica lint no código fornecido `text` para forçar JavaScript Standard Style. 
 
 ```js
 var opts = {
-  fix: false, // automaticamente corrige problemas
+  fix: false, // automaticamente corrige problems
   globals: [], // declaração de variáveis globais
   plugins: [], // plugins eslint
   envs: [], // ambiente eslint
@@ -525,7 +525,7 @@ Aplica lint nos globs `files`. Um objeto `opts` pode ser passado
 var opts = {
   ignore: [], // globs de arquivo para ser ignorados (has sane defaults)
   cwd: "", // diretório atual de trabalho (default: process.cwd())
-  fix: false, // corrige problemas automaticamente
+  fix: false, // corrige problems automaticamente
   globals: [], // variáveis globais para declarar
   plugins: [], // plugins eslint
   envs: [], // ambiente eslint
@@ -553,7 +553,7 @@ Junte-se ao `#standard` no freenode.
 - **[standard-www](https://github.com/standard/standard-www)** - código do https://standardjs.com
 - **[semistandard](https://github.com/standard/semistandard)** - standard, com ponto-e-vírgula (se você precisar)
 
-Há vários **[plugins de editores](#text-editor-plugins)**, uma lista de
+Há vários **[plugins de editors](#text-editor-plugins)**, uma lista de
 **[packages que usam `standard`](https://github.com/standard/standard-packages)**,
 e uma awesome list de
 **[packages do ecossistema `standard` ](https://github.com/standard/awesome-standard)**.
