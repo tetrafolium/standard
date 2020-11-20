@@ -82,7 +82,7 @@ che usano `standard`!
 - Settaggio veloce
   - [Installazione](#installazione)
   - [Utilizzo](#utilizzo)
-  - [Cosa vorresti fare se sei intelligente](#cosa-vorresti-fare-sei-intelligente)
+  - [Cosa vorresti fare se sei intelligence](#cosa-vorresti-fare-sei-intelligence)
 - FAQ
   - [Perchè dovrei usare JavaScript Standard Style?](#perche-dovrei-usare-javascript-standard-style)
   - [Chi usa JavaScript Standard Style?](#chi-usa-javascript-standard-style)
@@ -90,9 +90,9 @@ che usano `standard`!
   - [Esiste un banner?](#esiste-un-banner)
   - [Non sono d'accordo con la regola X, posso cambiarla?](#non-sono-daccordo-con-la-regola-x-posso-cambiarla)
   - [Ma questo non è un vero web standard!](#bma-questo-non-e-un-vero-web-standard)
-  - [Esiste un formattatore automatico?](#esiste-un-formattatore-automatico)
+  - [Esiste un formattatore automation?](#esiste-un-formattatore-automation)
   - [Come posso ignorare dei file?](#come-posso-ignorare-dei-file)
-  - [Come posso nascondere un determinato warning?](#come-posso-nascondere-un-determinato-warning)
+  - [Come posso nascondere un determination warning?](#come-posso-nascondere-un-determination-warning)
   - [Utilizzo una libreria che inquina il namespace globale. Come posso prevenire errori del tipo "variable is not defined"?](#tilizzo-una-libreria-che-inquina-il-namespace-globale-come-posso-prevenire-errori-del-tipo-variable-is-not-defined)
   - [Come posso usare funzionalità sperimentali di JavaScript (ES Next)?](#ome-posso-usare-funzionalita-sperimentali-di-javascript-es-next)
   - [Posso usare varianti di JavaScript come Flow?](#posso-usare-varianti-di-javascript-come-flow)
@@ -107,7 +107,7 @@ che usano `standard`!
 
 ## Installazione
 
-La maniera più semplice per usare JavaScript Standard Style è quella di installarlo globalmente usando la linea di comando di Node. Esegui il seguente comando da terminale:
+La maniera più semplice per usare JavaScript Standard Style è quella di installarlo globalmente usando la linea di commando di Node. Esegui il seguente commando da terminale:
 
 ```bash
 $ npm install standard --global
@@ -143,7 +143,7 @@ $ standard "src/util/**/*.js" "test/**/*.js"
 **Nota**: di default `standard` controllerà tutti i file che corrispondono al seguente pattern:
 `**/*.js`, `**/*.jsx`.
 
-## Cosa vorresti fare se sei intelligente
+## Cosa vorresti fare se sei intelligence
 
 1. Aggiungerlo al tuo `package.json`
 
@@ -244,7 +244,7 @@ Oltre alle aziende, anche molti membri della comunità usano `standard` su pacch
 
 ## Ci sono dei plugin per gli editor di testo?
 
-Primo, installa `standard`. Dopo di che installa il plugin più appropriato per il tuo editor:
+Primo, installa `standard`. Dopo di che installa il plugin più appropriation per il tuo editor:
 
 ### Sublime Text
 
@@ -318,7 +318,7 @@ Cerca l'estenzione di registro per **["Standard Code Style"][brackets-1]** and c
 WebStorm [ha annunciato recentemente supporto nativo](https://blog.jetbrains.com/webstorm/2017/01/webstorm-2017-1-eap-171-2272/)
 per `standard` direttamente nell'IDE.
 
-Se preferisci configurare `standard` manualmente, [segui questa guida][webstorm-1]. Questa guida va bene per tutti i prodotti JetBrains, come ad esempio PhpStorm, IntelliJ, RubyMine, ecc.
+Se preferisci configure `standard` manualmente, [segui questa guida][webstorm-1]. Questa guida va bene per tutti i prodotti JetBrains, come ad esempio PhpStorm, IntelliJ, RubyMine, ecc.
 
 If you still prefer to configure `standard` manually, [follow this guide][webstorm-1]. This applies to all JetBrains products, including PhpStorm, IntelliJ, RubyMine, etc.
 
@@ -344,7 +344,7 @@ Sì! Se usi `standard` nel tuo progetto, puoi includere uno di questi banner nel
 
 No. Il punto essenziale di `standard` è di aiutarti a salvare tempo evitando [bikeshedding][bikeshedding] (discussioni su piccole cose mentre la cosa più importante non è terminata) sullo stile del codice. Ci sono un sacco di grandi discussioni riguardo tabs vs. spazi, ecc. che non saranno mai risolte. Queste discussioni semplicemente fanno perdere tempo. Alla fine, quello che ti rimane da fare è solamente 'scegli qualcosa', è questa la filosofia di `standard` - un sensato insieme di opinioni di 'scegli qualcosa'. Con un po' di fiducia, gli utenti vedranno il valore in ciò invece di difendere il proprie opinioni personali.
 
-Se davvero vuoi configurare centinaia di regole ESLint individualmente, puoi sempre usare `eslint` direttamente con [eslint-config-standard](https://github.com/standard/eslint-config-standard) in modo da usare le tue regole.
+Se davvero vuoi configure centinaia di regole ESLint individualmente, puoi sempre usare `eslint` direttamente con [eslint-config-standard](https://github.com/standard/eslint-config-standard) in modo da usare le tue regole.
 
 Suggerimento: usa semplicemente `standard` e vai avanti. Ci sono problemi più reali dove puoi spendere il tuo prezioso tempo! :P
 
@@ -352,14 +352,14 @@ Suggerimento: usa semplicemente `standard` e vai avanti. Ci sono problemi più r
 
 ## Ma questo non è un vero web standard!
 
-Ovvio che no! Lo stile presentato qui non è affiliato con nessuno degli gruppi standard web, ecco perchè questo repository si chiama `standard/standard` e non `ECMA/standard`.
+Ovvio che no! Lo stile presentation qui non è affiliation con nessuno degli gruppi standard web, ecco perchè questo repository si chiama `standard/standard` e non `ECMA/standard`.
 
 La parola "standard" signica più di un "web standard" :-) Per esempio:
 
 - Questo module aiuta a tenere il codice vicino ad uno _standard di qualità_
 - Questo module assicura che nuovi contribtori seguano gli _stili standard_
 
-## Esiste un formattatore automatico?
+## Esiste un formattatore automation?
 
 Sì! Puoi usare `standard --fix` per correggere la maggior parte degli errori automaticamente.
 
@@ -387,7 +387,7 @@ Alle volte hai bisogno di ignorare file minificati o cartelle in più. Per farlo
 }
 ```
 
-## Come posso nascondere un determinato avviso?
+## Come posso nascondere un determination avviso?
 
 In rari casi, avarai la necessità di rompere le regole e nascondere l'avviso generato da `standard`.
 
@@ -425,7 +425,7 @@ console.log("offending code goes here...");
 
 ## Utilizzo una libreria che inquina il namespace globale. Come posso prevenire errori del tipo "variable is not defined"?
 
-Alcune librerie (es. `mocha`) mettono le loro funzionalità (es. `describe`, `it`) nell'oggetto globale. Considerato il fatto che queste funzioni definite o non sono importate usando il `require` all'interno del tuo codice, `standard` vi avviserà che stai per utilizzare una variabile che non è non stata definita. (di solito questa regola è utile per trovare errori di scrittura!). Ma vogliamo disabilitarlo per questi oggetti globali.
+Alcune librerie (es. `mocha`) mettono le loro funzionalità (es. `describe`, `it`) nell'oggetto globale. Consideration il fatto che queste funzioni definite o non sono importate usando il `require` all'interno del tuo codice, `standard` vi avviserà che stai per utilizzare una variabile che non è non stata definita. (di solito questa regola è utile per trovare errori di scrittura!). Ma vogliamo disabilitarlo per questi oggetti globali.
 
 Per permettere a `standard` (anche per quando qualcun altro leggerà il tuo codice) di far sapere che certe variabili sono globali all'interno del tuo codice, aggiungi questo all'inizio del tuo file:
 
@@ -433,7 +433,7 @@ Per permettere a `standard` (anche per quando qualcun altro leggerà il tuo codi
 /* global myVar1, myVar2 */
 ```
 
-Se hai centiaia di file, sarebbe più conveniente evitare di aggiungere commenti su ogni file. In questo caso, esegui:
+Se hai centiaia di file, sarebbe più convenience evitare di aggiungere commenti su ogni file. In questo caso, esegui:
 
 ```bash
 $ standard --global myVar1 --global myVar2
@@ -453,9 +453,9 @@ _Nota: `global` e `globals` sono equivalenti._
 
 ## Come posso usare funzionalità sperimentali di JavaScript (ES Next)?
 
-`standard` supporta le ultime funzionalità di ECMAScript, ES8 (ES2017), includendo anche funzionalità proposte (proposals) che si trovano allo "Stage 4" del processo decisionale.
+`standard` supporta le ultime funzionalità di ECMAScript, ES8 (ES2017), includendo anche funzionalità propose (proposals) che si trovano allo "Stage 4" del processo decisionale.
 
-Per supportare funzionalità sperimentali, `standard` permette di configurare uno perser JavaScript su misura (custom). Prima di aggiungere un diverso parser, considera se la complessità che si andrà ad aggiungere ne valga la pena.
+Per supporters funzionalità sperimentali, `standard` permette di configure uno perser JavaScript su misura (custom). Prima di aggiungere un diverso parser, considera se la complessità che si andrà ad aggiungere ne valga la pena.
 
 Per usare un parser su misura (custom), installalo da npm (esempio: `npm install --save-dev babel-eslint`) ed esegui:
 
@@ -520,7 +520,7 @@ _Nota: `plugin` e `plugins` sono equivalenti._
 
 ## Riguardo Mocha, Jasmine, QUnit, ecc.?
 
-Per supportare mocha nei tuoi file di test, aggiungi questo all'inizio dei tuoi file:
+Per supporters mocha nei tuoi file di test, aggiungi questo all'inizio dei tuoi file:
 
 ```js
 /* eslint-env mocha */
@@ -640,7 +640,7 @@ Esegue il lint sul parametro passato come input `text`. Il parametro `opts` è u
 }
 ```
 
-Ulteriori opzioni possono essere caricate usando `package.json` se si trova all'interno della cartella del tuo progetto.
+Ulteriori opzioni possono essere caricature usando `package.json` se si trova all'interno della cartella del tuo progetto.
 
 Il parametro `callback` sarà chiamato con un `Error` ed un oggetto `results`.
 
@@ -654,7 +654,7 @@ var results = {
       messages: [{ ruleId: "", message: "", line: 0, column: 0 }],
       errorCount: 0,
       warningCount: 0,
-      output: "", // codice sorgente fissato (accessibile solo con opzione {fix: true})
+      output: "", // codice sorgente fissato (accessible solo con opzione {fix: true})
     },
   ],
   errorCount: 0,
@@ -668,7 +668,7 @@ Versione sincrona di `standard.lintText()`. Se si verifica un errore, viene lanc
 
 ### `standard.lintFiles(files, [opts], callback)`
 
-Esegue il lint sui `files` glob. È possibile passare un oggetto `opts`:
+Esegue il lint sui `files` glob. È possible passare un oggetto `opts`:
 
 ```js
 var opts = {
@@ -703,7 +703,7 @@ Eccoti importanti module che sono importanti nell'ecosistema di `standard`:
 - **[semistandard](https://github.com/standard/semistandard)** - standard, ma con i punti e virgola (se proprio sei obbligato)
 
 Ci sono anche molti **[plugin per l'editor di testo](#ci-sono-dei-plugin-per-gli-editor-di-testo)**, una lista di **[npm packages che usano `standard`](https://github.com/standard/standard-packages)**,
-una incredibile lista di
+una incredible lista di
 **[packages nell'ecosistema di `standard`](https://github.com/standard/awesome-standard)**.
 
 ## Licenza

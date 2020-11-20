@@ -1408,7 +1408,7 @@ Tous les minificateurs populaires de code utilisés aujourd'hui utilisent la min
 >
 > En general, `\n` termine une instruction sauf si:
 >
-> 1. L'instruction a une parenthèse qui n'est pas fermée, un tableau ou objet littéral ou finit d'une facon qui n'est pas valide. (Par exemple, avec un `.` ou `,`.)
+> 1. L'instruction a une parenthèse qui n'est pas fermée, un tableau ou objet littéral ou finit d'une facon qui n'est pas valide. (Par example, avec un `.` ou `,`.)
 > 2. La ligne est `--` ou `++` (au quel cas il diminuera ou augmentera l'element qui suit.)
 > 3. C'est un `for()`, `while()`, `do`, `if()`, ou `else`, et il n'y a pas de `{`
 > 4. La prochaine ligne commence par`[`, `(`, `+`, `*`, `/`, `-`, `,`, `.`, ou un autre opérateur binaire qui peut seulement être placé entre deux éléments dans une seule expression.
@@ -1421,7 +1421,7 @@ Tous les minificateurs populaires de code utilisés aujourd'hui utilisent la min
 >
 > `;` est une instruction valide, donc `if(x);` est equivalent à `if(x){}` ou, “If x, do nothing.” C'est plus couramment appliqué aux boucles ou la boucle vérifie aussi si la fonction est mise à jour. C'est pas courant, mais ça arrive.
 >
-> Le quatrième est généralement le cas “oh non, vous avez besoin de point-virgules!”. Mais, il s'avère qu'il est plutot facile de _prefixer_ ces lignes avec des point-virgules si vous n'avez pas l'intention de les utiliser comme continutions de la ligne précédente. Par exemple, au lieu de ça:
+> Le quatrième est généralement le cas “oh non, vous avez besoin de point-virgules!”. Mais, il s'avère qu'il est plutot facile de _prefixer_ ces lignes avec des point-virgules si vous n'avez pas l'intention de les utiliser comme continutions de la ligne précédente. Par example, au lieu de ça:
 >
 > ```js
 > foo();

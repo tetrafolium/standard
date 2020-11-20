@@ -117,7 +117,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   function greet (name,options) { ... }
   ```
 
-- **Mantener declaracion else** en la misma linea que sus llaves.
+- **Mantener declaration else** en la misma linea que sus llaves.
 
   eslint: [`brace-style`](http://eslint.org/docs/rules/brace-style)
 
@@ -220,7 +220,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   var location = env.development ? "localhost" : "www.api.com";
   ```
 
-- **Para declaraciones var,** escribir solo una asignación en cada declaracion
+- **Para declaraciones var,** escribir solo una asignación en cada declaration
 
   eslint: [`one-var`](http://eslint.org/docs/rules/one-var)
 
@@ -351,7 +351,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   var dog = new Animal(); // ✓ ok
   ```
 
-- **Constructor sin argumentos debe ser invocado con paréntesis.**
+- **Constructor sin arguments debe ser invocado con paréntesis.**
 
   eslint: [`new-parens`](http://eslint.org/docs/rules/new-parens)
 
@@ -468,7 +468,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   }
   ```
 
-- **Evitar carácteres de control de expresiones regulares.**
+- **Evitar carácteres de control de expresiones regulars.**
 
   eslint: [`no-control-regex`](http://eslint.org/docs/rules/no-control-regex)
 
@@ -497,7 +497,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   delete name; // ✗ avoid
   ```
 
-- **Evitar argumentos duplicados en definicion de funciones.**
+- **Evitar arguments duplicados en definition de funciones.**
 
   eslint: [`no-dupe-args`](http://eslint.org/docs/rules/no-dupe-args)
 
@@ -558,7 +558,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   import { myFunc1, myFunc2 } from "module"; // ✓ ok
   ```
 
-- **Evitar classes de carácteres vacia en expresiones regulares.**
+- **Evitar classes de carácteres vacia en expresiones regulars.**
 
   eslint: [`no-empty-character-class`](http://eslint.org/docs/rules/no-empty-character-class)
 
@@ -722,7 +722,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   }); // ✓ ok
   ```
 
-- **Evitar declaracion de funciones en bloques anidados.**
+- **Evitar declaration de funciones en bloques anidados.**
 
   eslint: [`no-inner-declarations`](http://eslint.org/docs/rules/no-inner-declarations)
 
@@ -732,7 +732,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   }
   ```
 
-- **Evitar cadenas de texto expresiones regulares invalidas en costructores `RegExp`.**
+- **Evitar cadenas de texto expresiones regulars invalidates en costructores `RegExp`.**
 
   eslint: [`no-invalid-regexp`](http://eslint.org/docs/rules/no-invalid-regexp)
 
@@ -928,7 +928,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
   name = "Jane"; // ✓ ok
   ```
 
-- **Evitar multiples espacios en expresiones regulares.**
+- **Evitar multiples espacios en expresiones regulars.**
 
   eslint: [`no-regex-spaces`](http://eslint.org/docs/rules/no-regex-spaces)
 
@@ -999,7 +999,7 @@ La mejor manera de aprender acerca de `standard` es instalarlo darle una prueba 
 
   eslint: [`no-tabs`](http://eslint.org/docs/rule
 
-- **Cadenas de textos regulares no deben contener placeholders de plantillas literales.**
+- **Cadenas de textos regulars no deben contener placeholders de plantillas literales.**
 
   eslint: [`no-template-curly-in-string`](http://eslint.org/docs/rules/no-template-curly-in-string)
 
@@ -1311,7 +1311,7 @@ const message = `Hello, ${name}`; // ✓ ok
   window.alert("hi"); // ✗ evitar
   ```
 
-- Nunca empezar una linea con `(`, `[`, o `` ` ``. Este es el único problema cuando se omiten los puntos y comas, y `standard` te protege de problemas potenciales
+- Nunca empezar una linea con `(`, `[`, o `` ` ``. Este es el único problema cuando se omiten los puntos y comas, y `standard` te protege de problems potenciales
 
   eslint: [`no-unexpected-multiline`](http://eslint.org/docs/rules/no-unexpected-multiline)
 
@@ -1372,8 +1372,8 @@ const message = `Hello, ${name}`; // ✓ ok
 - [Are Semicolons Necessary in JavaScript? - YouTube][3]
 
 Los minificadores de código populares hoy en día están basados en AST
-(Árbol abstracto de sintaxis), de manera que pueden gestionar JavaScript
-sin puntos y comas sin problemas (puntos y comas no son requeridos en JavaScript).
+(Árbol abstraction de sintaxis), de manera que pueden gestionar JavaScript
+sin puntos y comas sin problems (puntos y comas no son requeridos en JavaScript).
 
 ##### Extrácto de _["An Open Letter to JavaScript Leaders Regarding Semicolons"][1]_:
 
@@ -1387,7 +1387,7 @@ La línea es `--` o `++` (en este caso esto decrementa/incrementa el proximo tok
 Es un `for()`, `while()`, `do`, `if()`, o `else`, no exista una llave `{`
 La próxima línea empieza con `[`, `(`, `+`, `*`, `/`, `-`, `,`, `.` o algún operador binario que solo se encuentra entre dos tokens en un sola expresión
 
-El primero es bastante obvio. Incluso JSLint no tiene problemas con caracteres `\n` en JSON y constructores entre paréntesis, y con declaraciones `var` que lapsan múltiples líneas terminando con `,`.
+El primero es bastante obvio. Incluso JSLint no tiene problems con caracteres `\n` en JSON y constructores entre paréntesis, y con declaraciones `var` que lapsan múltiples líneas terminando con `,`.
 
 El segundo es super raro. Yo nunca he visto un caso (fuera de este tipo de conversaciones) donde quisieras escribir `i\n++\nj`, pero, de hecho eso es analizado como `i; ++j;`y no `j++; j`.
 
@@ -1395,7 +1395,7 @@ El tercero es bien entendido, es generalmente despreciado. `if (x)\ny()` es equi
 
 `;` es una declaración JavaScript válida, entonces `if(x);` es el equivalente a `if(x){}` o “Sí x, hacer nada” Esto es más comúnmente aplicado a bucles donde el bucle también chequea si la función actualiza, No es usual, pero existe.
 
-El cuarto es generalmente el caso inducido “Oh no, necesitas puntos y comas”. Pero pasa que es bastante simple darle el prefijo a esas linas con puntos y comas, si no quieres que sean la continuacion de la linea previa. Por ejemplo, en vez de esto:
+El cuarto es generalmente el caso inducido “Oh no, necesitas puntos y comas”. Pero pasa que es bastante simple darle el prefijo a esas linas con puntos y comas, si no quieres que sean la continuation de la linea previa. Por ejemplo, en vez de esto:
 
 ```js
 foo();

@@ -361,7 +361,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   var dog = new Animal(); // ✓ ok
   ```
 
-- **Gli oggetti devono un getter quando un settere viene definito.**
+- **Gli oggetti devono un getter quando un settere viene definition.**
 
   eslint: [`accessor-pairs`](http://eslint.org/docs/rules/accessor-pairs)
 
@@ -384,7 +384,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   };
   ```
 
-- **I costruttori di classi derivate devono chiamare `super`.**
+- **I costruttori di classi derivative devono chiamare `super`.**
 
   eslint: [`constructor-super`](http://eslint.org/docs/rules/constructor-super)
 
@@ -429,7 +429,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   }
   ```
 
-- **Non è possibile cambiare il nome delle classi.**
+- **Non è possible cambiare il nome delle classi.**
 
   eslint: [`no-class-assign`](http://eslint.org/docs/rules/no-class-assign)
 
@@ -524,7 +524,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   }
   ```
 
-- **Non è possibile dichiarare chiavi doppie degli oggetti literals.**
+- **Non è possible dichiarare chiavi doppie degli oggetti literals.**
 
   eslint: [`no-dupe-keys`](http://eslint.org/docs/rules/no-dupe-keys)
 
@@ -535,7 +535,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   };
   ```
 
-- **Non è possibile dichiarare due `case` che controllano lo stesso valore all'interno di uno `switch`**
+- **Non è possible dichiarare due `case` che controllano lo stesso valore all'interno di uno `switch`**
 
   eslint: [`no-duplicate-case`](http://eslint.org/docs/rules/no-duplicate-case)
 
@@ -567,7 +567,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   const myRegex = /^abc[a-z]/; // ✓ ok
   ```
 
-- **Non è possibile usare il destructuring vuoto**
+- **Non è possible usare il destructuring vuoto**
 
   eslint: [`no-empty-pattern`](http://eslint.org/docs/rules/no-empty-pattern)
 
@@ -607,7 +607,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
   }
   ```
 
-- **Non è possibile estendere oggetti nativi.**
+- **Non è possible estendere oggetti nativi.**
 
   eslint: [`no-extend-native`](http://eslint.org/docs/rules/no-extend-native)
 
@@ -1358,7 +1358,7 @@ Il modo migliore per imparare `standard` è quello di installarlo e provarlo sul
 
   Nota: Se tendi a scrivere codice in questo modo, probabilmente stai cercando di essere troppo furbo.
 
-  È scoraggiato l'uso di scorciatoie, in favore di espressioni chiare e leggibili quando possibile.
+  È scoraggiato l'uso di scorciatoie, in favore di espressioni chiare e leggibili quando possible.
 
   Invece di:
 
