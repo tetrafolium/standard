@@ -16,41 +16,43 @@ If you still prefer to configure `standard` manually, use the following guide.
 3. Navigate to `your-config-dir/codestyles`. If this directory doesn't exist,
    create it in the WebStorm config settings directory
 4. Create a `Standard.xml` file:
-  ```xml
-    <code_scheme name="Standard">
-      <JSCodeStyleSettings>
-        <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
-        <option name="USE_DOUBLE_QUOTES" value="false" />
-        <option name="SPACES_WITHIN_IMPORTS" value="true" />
-      </JSCodeStyleSettings>
-      <codeStyleSettings language="JavaScript">
-        <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-        <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
-        <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
-        <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
-        <indentOptions>
-          <option name="INDENT_SIZE" value="2" />
-          <option name="CONTINUATION_INDENT_SIZE" value="2" />
-          <option name="TAB_SIZE" value="2" />
-        </indentOptions>
-      </codeStyleSettings>
-    </code_scheme>
-  ```
+
+```xml
+  <code_scheme name="Standard">
+    <JSCodeStyleSettings>
+      <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
+      <option name="USE_DOUBLE_QUOTES" value="false" />
+      <option name="SPACES_WITHIN_IMPORTS" value="true" />
+    </JSCodeStyleSettings>
+    <codeStyleSettings language="JavaScript">
+      <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
+      <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
+      <option name="KEEP_SIMPLE_BLOCKS_IN_ONE_LINE" value="true" />
+      <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
+      <indentOptions>
+        <option name="INDENT_SIZE" value="2" />
+        <option name="CONTINUATION_INDENT_SIZE" value="2" />
+        <option name="TAB_SIZE" value="2" />
+      </indentOptions>
+    </codeStyleSettings>
+  </code_scheme>
+```
 
 5. You may install dependencies and config globally or locally and with support of ES7 or without it
-  - **Local** install:
-    - `npm install --save-dev eslint-config-standard eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard`
-    - `echo '{"extends": ["standard", "standard-jsx"]}' > .eslintrc`
-  - **Global** install:
-    - `npm install --global eslint-config-standard eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard`
-    - `echo '{"extends": ["standard", "standard-jsx"]}' > ~/.eslintrc`
 
-  Be aware: The second command above will overwrite an existing `.eslintrc` if one exists.
+- **Local** install:
+  - `npm install --save-dev eslint-config-standard eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard`
+  - `echo '{"extends": ["standard", "standard-jsx"]}' > .eslintrc`
+- **Global** install:
+  - `npm install --global eslint-config-standard eslint-config-standard-jsx eslint-plugin-promise eslint-plugin-react eslint-plugin-standard`
+  - `echo '{"extends": ["standard", "standard-jsx"]}' > ~/.eslintrc`
 
-  If you choose global install, the first command may require you to use `sudo`. If
-  it does require sudo, that means you do not have permission to write to the
-  directories that npm uses to store global packages. `Standard` will work, but if
-  you would like to fix it, [read this article][npm-article].
+Be aware: The second command above will overwrite an existing `.eslintrc` if one exists.
+
+If you choose global install, the first command may require you to use `sudo`. If
+it does require sudo, that means you do not have permission to write to the
+directories that npm uses to store global packages. `Standard` will work, but if
+you would like to fix it, [read this article][npm-article].
 
 6. Start up the IDE and open a _Settings_/_Preferences_ screen (choose between project and default settings accordingly to your preference)
 7. Under `Editor > Code Style > JavaScript` change `Scheme` to `Standard`
